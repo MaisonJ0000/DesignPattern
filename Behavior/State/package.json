@@ -1,0 +1,17 @@
+{
+  "name": "state",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "node --experimental-modules --es-module-specifier-resolution=node server.js",
+    "start:client": "node --experimental-modules --es-module-specifier-resolution=node client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-over-tcp-2": "^0.3.5"
+  }
+}
