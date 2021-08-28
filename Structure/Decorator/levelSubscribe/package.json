@@ -1,0 +1,17 @@
+{
+  "name": "levelsubscribe",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "levelRun.js",
+  "scripts": {
+    "prestart": "source $HOME/.nvm/nvm.sh; nvm use",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node levelRun.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "level": "^7.0.0"
+  }
+}

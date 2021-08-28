@@ -1,0 +1,20 @@
+{
+  "name": "httpcache",
+  "version": "1.0.0",
+  "description": "동일한 요청을 수행하면 로컬 캐시에서 즉시 반환하기.",
+  "main": "axoisCache.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx babel-node --presets @babel/env run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0"
+  }
+}
