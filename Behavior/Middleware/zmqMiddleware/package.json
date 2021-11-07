@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "zeromq": "^5.2.8",
     "zlib": "^1.0.5"
   }
 }
